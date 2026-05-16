@@ -1,58 +1,36 @@
-# pizza-place-sales-analysis_
-Pizza Place Sales Analysis
-📌 Project Overview
-This project analyzes one year of sales data from a fictional pizza restaurant. The objective is to explore revenue trends, customer purchasing behavior, product performance, and time-based sales patterns.
-The dataset consists of transactional data including order details, pizza types, pricing, and timestamps.
+# Pizza Place Sales Analysis 🍕
 
-📂 Dataset Description
-The dataset contains four CSV files:
-orders.csv – Order ID, date, and time of each transaction
-order_details.csv – Order ID, pizza ID, and quantity ordered
-pizzas.csv – Pizza ID, size, and price
-pizza_types.csv – Pizza name, category, and ingredients
-These datasets were merged into a single dataframe for analysis using common keys.
+## Project Overview
+Analysis of one year of sales data from a pizza restaurant 
+(21,350 orders, 48,620 transactions). The goal was to uncover 
+revenue trends, peak demand periods, and product performance 
+to inform business decisions.
 
-🛠️ Tools & Technologies Used
-Python
-Pandas
-Matplotlib
-Jupyter Notebook / Google Colab
-Git & GitHub
+## Key Results
 
-📊 Business Questions Answered
-What is the total revenue generated?
-What is the total quantity sold?
-How many total orders were processed?
-How many pizza types are offered?
-What is the average pizza price?
-What are the peak sales hours?
-Which day of the week generates the most revenue?
-What are the top 5 bestselling pizzas?
-What are the monthly sales trends?
-Which pizzas are underperforming?
+| Metric | Finding |
+|---|---|
+| Total Annual Revenue | $817,860 |
+| Total Pizzas Sold | 49,574 |
+| Total Orders | 21,350 |
+| Peak Sales Hour | 12PM–1PM ($111,877 revenue) |
+| Best Sales Day | Friday ($136,073 revenue) |
+| Top Selling Pizza | The Classic Deluxe Pizza (2,453 units) |
+| Lowest Performing Pizza | The Brie Carre Pizza (490 units) |
 
-📈 Key Insights
-The business generated strong annual revenue with consistent sales throughout the year.
-Peak sales occur during lunchtime hours.
-Fridays recorded the highest weekly revenue.
-A small group of pizzas drive the majority of total sales.
-Some specialty pizzas show significantly lower demand and may require promotional strategies.
+## Business Questions Answered
+- What is the total revenue and order volume?
+- When are peak sales hours and days?
+- Which pizzas drive the most revenue?
+- Which pizzas are underperforming?
+- What are monthly sales trends?
 
-📁 Repository Structure
-pizza-place-sales-analysis/
-│
-├── Pizza_Sales_Analysis.ipynb
-└── README.md
+## Tools Used
+Python, Pandas, Matplotlib, Jupyter Notebook, SQL
 
-🎯 Learning Outcomes
-This project demonstrates:
-Data cleaning and preprocessing
-Merging relational datasets
-Feature engineering
-Exploratory Data Analysis (EDA)
-Time-series sales analysis
-Business insight generation
+## Dataset
+Four relational CSV files merged for analysis:
+orders, order_details, pizzas, pizza_types
 
-👤 Author
-Hans Shaibu
-Aspiring Data Analyst | Turning data into actionable insights
+## Author
+Hans Shaibu — Data Analyst
